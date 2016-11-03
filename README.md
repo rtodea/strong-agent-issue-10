@@ -7,6 +7,11 @@ brew install redis
 brew services start redis
 ```
 
+### Install Dependencies
+```
+npm install
+```
+
 ### Start App
 ```
 npm run start
