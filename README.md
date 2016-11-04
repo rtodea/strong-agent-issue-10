@@ -26,7 +26,7 @@ curl  -H 'Content-Type: application/json' -d '{"type": "simple-job", "data": {"t
 ### Non-Kue Failing Endpoint
 ```
 # Fails
-curl  -H 'Content-Type: application/json' localhost:3000/redis/hmset/bad
+curl  -H 'Content-Type: application/json' localhost:3000/redis/hset/bad
 # Works
-curl  -H 'Content-Type: application/json' localhost:3000/redis/hmset/good
+curl  -H 'Content-Type: application/json' localhost:3000/redis/hset/good
 ```
